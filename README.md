@@ -1,0 +1,2 @@
+# AnaliseDeSentimentos
+Analise de Sentimentos
