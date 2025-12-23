@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Análise de Sentimentos — Portfólio</title>
+  <style>
+    body{font-family:Inter,system-ui,Segoe UI,Roboto,Arial;max-width:900px;margin:40px auto;color:#111;line-height:1.6;padding:0 16px}
+    header{border-bottom:1px solid #eee;padding-bottom:18px;margin-bottom:22px}
+    h1{margin:0;font-size:28px}
+    .tech{background:#f6f8fa;padding:12px;border-radius:6px}
+    .hero img{max-width:100%;border-radius:6px}
+    footer{margin-top:32px;color:#666;font-size:14px}
+    pre{background:#f4f4f4;padding:12px;border-radius:6px;overflow:auto}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Análise de Sentimentos</h1>
+    <p>Projeto demonstrativo para classificar sentimento de textos (positivo / neutro / negativo). Ideal para portfólio.</p>
+  </header>
+
+  <section class="hero">
+    <img src="assets/demo.gif" alt="Demo do projeto (adicione docs/assets/demo.gif)">
+  </section>
+
+  <section>
+    <h2>Funcionalidades</h2>
+    <ul>
+      <li>Classificação de sentimento</li>
+      <li>Pipeline de pré-processamento (limpeza e tokenização)</li>
+      <li>Modelos treinados e script de inferência</li>
+      <li>API simples para inferência (opcional)</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Como publicar com GitHub Pages</h2>
+    <ol>
+      <li>Confirme que os arquivos estão no branch `main`.</li>
+      <li>Coloque esta página em `docs/index.html` (já feita) e os assets em `docs/assets/`.</li>
+      <li>Commit e push:</li>
+    </ol>
+    <pre><code>git add docs/ && git commit -m "Add GitHub Pages site" && git push origin main</code></pre>
+    <p>Depois, no GitHub: Settings → Pages → Source → Branch: <strong>main</strong> / folder: <strong>/docs</strong>. Salve — o site ficará disponível em <em>https://&lt;seu-user&gt;.github.io/&lt;repo&gt;</em> em alguns minutos.</p>
+  </section>
+
+  <section>
+    <h2>Como rodar localmente</h2>
+    <p>Este repositório contém principalmente o material do projeto. Para rodar uma API ou notebook local, adicione seus arquivos em `src/` ou `notebooks/` e siga as instruções do `README.md`.</p>
+  </section>
+
+  <section>
+    <h2>Próximos passos</h2>
+    <ul>
+      <li>Adicionar `docs/assets/demo.gif` (GIF curto do fluxo).</li>
+      <li>Adicionar screenshots em `docs/assets/`.</li>
+      <li>Adicionar `requirements.txt` / `Dockerfile` se quiser deploy via Vercel/Docker.</li>
+      <li>Configurar CI para badges (opcional).</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>Repositório: <a href="https://github.com/alexanderbandeiralira/AnaliseDeSentimentos">alexanderbandeiralira/AnaliseDeSentimentos</a></p>
+  </footer>
+</body>
+</html>
